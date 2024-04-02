@@ -1,0 +1,234 @@
+/*--------------NAVIGATION BAR-------------*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+body {
+	margin: 0;
+	background: #FFFFFF;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+header {
+  background: #ffffff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 120px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: rgb(0, 0, 0);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: rgb(0, 0, 0);
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #050404;
+}
+
+h1{
+  margin-top: 50px;
+  margin-left: 510px;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.slider-frame{
+  overflow: hidden;
+  height: 800px;
+  width: 1200px;
+  margin-left: 360px;
+  margin-top: 20px;
+}
+
+/*--------------NAVIGATION BAR END-------------*/
+
+/*-------------PRODUCTS PAGE Side Bar Start---------------*/
+.sidebar {
+  height: 340px;
+  width: 115px;
+  position: fixed;
+  top: 40;
+  left: 0;
+  padding-top: 10px;
+  background-color: #8E9AAF;
+  opacity: 90%;
+  }
+  
+  .sidebar div {
+  padding: 8px;
+  text-align: center;
+  font-size: 17px;
+  display: block;
+  }
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  }
+/*-------------PRODUCTS PAGE Side Bar End---------------*/
+
+/*-------------Release PAGE list Start---------------*/
+ol.list1{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding-right: 0px;
+  padding-left: 450px;
+}
+
+ul.list2{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding-right: 150px;
+  padding-left: 450px;
+}  
+
+img.list2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*-------------Releases PAGE List End---------------*/
+
+/*-------------Support PAGE List Start---------------*/
+
+.about{
+  padding: 4%;
+  padding-left: 35%;
+}
+
+.contact{
+  padding: 3%;
+  padding-left: 35%;
+}
+/*-------------Support PAGE List End---------------*/
+
+/* HOMEPAGE on image text start */
+.bottom-left {
+  position: relative;
+  top: 250px;
+  left: 0px;
+  color: white;
+  padding-left: 350px;
+}
+
+.bottom-left1 {
+  position: relative;
+  top: 270px;
+  left: 0px;
+  color: white;
+  padding-left: 1000px;
+  padding-top: 0px;
+}
+
+.bottom-left2 {
+  position: relative;
+  top: 270px;
+  left: 0px;
+  color: white;
+  padding-left: 250px;
+  padding-top: 0px;
+}
+/* HOMEPAGE on image text end */
+
+/* PRODUCTS PAGE subheading start */
+.ftrd{
+  background-color: #8E9AAF;
+}
+
+.clth{
+  background-color: blanchedalmond;
+}
+.snkr{
+  background-color: blanchedalmond;
+}
+
+.access{
+  background-color: blanchedalmond;
+}
+
+.prod{
+  background-color: blanchedalmond;
+}
+
+.ord{
+  background-color: blanchedalmond;
+}
+
+.men{
+  background-color: #8E9AAF;
+}
+
+.wmn{
+  background-color: #8E9AAF;
+}
+
+.kids{
+  background-color: #8E9AAF;
+}
+/* PRODUCTS PAGE subheading end */
+
+/* FAQS SECTION*/
+.faqs {
+	background: #000000;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+  padding: 5%;
+  padding-left: 33%;
+}
+/* FAQS SECTION end*/
